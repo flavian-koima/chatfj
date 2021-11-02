@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "location",
+         "patterns": ["where are guys located?", "Where is the shop?", "where can I find you", "location?", "Mwapatikana wapi?"],
+         "responses": ["Kvda building", "Eldoret town behind Sirikwa hotel"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me pingu.", "I'm pingu!", "I'm pingu aka chat With Pingu."],
+         "context_set": ""
+        },
+        {"tag": "Items",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell meat cookies rice", "Cookies bread doughnuts are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "prices",
+                "patterns": ["when are your prices? ", "How much is a cookie?", "How much for a bread?", "mkate ni ngapi", "pesa"],
+                "responses": ["We sell meat @ ksh:50 cookies @ ksh:30 rice @ ksh:20 "],
+                "context_set": ""
+        }
+   ]
+}
