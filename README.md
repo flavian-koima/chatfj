@@ -1,4 +1,4 @@
-# chatfj 
+# chatfj requirements
 spacy
 nltk
 textblob
